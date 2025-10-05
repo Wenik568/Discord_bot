@@ -125,6 +125,31 @@ python music_bot.py
 **Spotify не працює:**
 - Spotify посилання конвертуються через YouTube, тому результати можуть відрізнятися
 
+## 🚀 Деплой на хостинг
+
+### Railway.app
+1. Створіть новий проект на [Railway.app](https://railway.app)
+2. Підключіть GitHub репозиторій
+3. Додайте environment variables (змінні оточення):
+   - `DISCORD_TOKEN`
+   - `SPOTIFY_CLIENT_ID`
+   - `SPOTIFY_CLIENT_SECRET`
+4. Railway автоматично розпізнає налаштування з `railway.json` та `nixpacks.toml`
+5. Деплой!
+
+### Render.com
+1. Створіть Background Worker на [Render.com](https://render.com)
+2. Підключіть GitHub репозиторій
+3. Встановіть команди:
+   - Build: `pip install -r requirements.txt`
+   - Start: `python music_bot.py`
+4. Додайте environment variables
+5. Деплой!
+
 ## 📝 Ліцензія
 
 MIT License
+
+---
+
+🤖 Built with Claude Code
