@@ -5,4 +5,4 @@ nixPkgs = ["python39", "ffmpeg"]
 cmds = ["pip install -r requirements.txt"]
 
 [start]
-cmd = "python music_bot.py"
+cmd = "python main.py"
