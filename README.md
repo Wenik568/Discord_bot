@@ -146,10 +146,4 @@ python music_bot.py
 4. Додайте environment variables
 5. Деплой!
 
-## 📝 Ліцензія
 
-MIT License
-
----
-
-🤖 Built with Claude Code
